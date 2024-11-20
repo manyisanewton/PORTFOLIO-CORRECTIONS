@@ -1,0 +1,118 @@
+ /* General Styles */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: black;
+    padding-left: 20px;
+    font-size: xx-large;
+    }
+    
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    }
+    
+    header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: x-large;
+    }
+    
+    nav a {
+    color: #eed5d5;
+    text-decoration: none;
+    }
+    
+    section {
+    padding: 20px;
+    margin: 20px 0;
+    }
+    
+    h1, h2 {
+    color: #333;
+    }
+    
+    .image-section img {
+    max-width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    display: flex;
+    object-fit: cover;
+    }
+    
+    .about-container, .projects-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    }
+    
+    .projects-container .project {
+    flex: 1 1 calc(33% - 20px);
+    margin-bottom: 20px;
+    }
+    
+    .projects-container .project img {
+    max-width: 100%;
+    border-radius: 5px;
+    }
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    
+    form label {
+    font-weight: bold;
+    }
+    
+    form input, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    
+    form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    }
+    
+    footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: white;
+      }
+      
+      .social-icons a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        transition: color 0.3s;
+      }
+      
+      .social-icons a:hover {
+        color: #1da1f2; /* Example hover color */
+      }
+      
